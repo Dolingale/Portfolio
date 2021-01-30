@@ -1,0 +1,671 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+  background: lightgray;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background:darkgray; 
+}
+
+/************************************** START NAVBAR *****************************************/
+nav {
+  background-color: #1a222c;
+  width: 100%;
+  visibility: hidden;
+}
+
+nav div div ul li a {
+  color: lightgray;
+}
+
+nav div div ul li a:hover {
+  color: #fffafa;
+}
+
+#navbarUl {
+  width: 100%;
+  /* background-color: green; */
+  text-align: center;
+}
+
+#navbarHome {
+  /* background-color: red; */
+  width: 25%;
+}
+
+#navbarSkills {
+  /* background-color: blue; */
+  width: 25%;
+}
+
+#navbarProjects {
+  /* background-color: orange; */
+  width: 25%;
+}
+
+#navbarContact {
+  /* background-color: purple; */
+  width: 25%;
+}
+
+/************************************** END NAVBAR *******************************************/
+
+/************************************** START ANIMATION **************************************/
+#particles-js,
+.animation {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1a222c;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: fixed !important;
+  z-index: -1;
+}
+
+#animation-row {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+#animation-col {
+  padding: 0;
+  width: 100%;
+}
+
+#animation-myName {
+  width: 100%;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  padding-top: 350px;
+}
+/************************************** END ANIMATION ****************************************/
+
+/************************************** START ABOUT ME ***************************************/
+.about-me {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding-top: 1000px;
+}
+
+.about-me-row{
+  background-color: #fffafa;
+  padding-top: 50px;
+}
+
+.about-me div div h2 {
+  padding-bottom: 10px;
+  font-weight: 600;
+  color:#1a222c;
+}
+
+.about-me div div hr, .hr-title {
+  width: 8%;
+  background-color: #1a222c;
+  opacity: 1;
+  border: none;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.about-me-text {
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.about-me-text-apprentice{
+  font-weight: bolder;
+}
+/************************************** END ABOUT ME *****************************************/
+
+/************************************** START SKILLS *************************************/
+.my-skills {
+  height: auto;
+  width: 100%;
+  background-color: #fffafa;
+  color:#1a222c;
+}
+
+.my-skills-title, .my-projects-title, .contact-title{
+  /* background-color: rebeccapurple; */
+  text-align: center;
+  padding: 20px 0 50px 0;
+  font-weight: 600;
+  color:#1a222c;
+}
+
+/************************************/
+/*************** FRONT **************/
+/************************************/
+.my-skills-title-front, .my-skills-title-tools{
+  padding-left: 250px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.my-skills-front, .my-skills-back, .my-skills-tools{
+  justify-content: center;
+}
+
+.my-skills-div-html, .my-skills-div-php, .my-skills-div-github, .my-skills-div-jquery, .my-skills-div-symfony{
+  text-align: end;
+}
+
+.my-skills-div-css, .my-skills-div-sublimemerge, .my-skills-div-sass, .my-skills-div-wordpress{
+  text-align: start;
+}
+
+.my-skills-img-html{
+  max-width: 15%;
+  height:auto
+}
+
+.my-skills-img-css{
+  max-width: 19%;
+  height:auto
+}
+
+/************************************/
+/***************** BACK *************/
+/************************************/
+.my-skills-title-back,.my-skills-title-librairies{
+  padding-right: 250px;
+  text-align: center;
+  /* background-color: darkcyan; */
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.my-skills-div-js, .my-skills-div-git, .my-skills-div-bootstrap{
+  text-align: center;
+}
+
+.my-skills-div-mysql{
+  text-align: start;
+  padding-right: 50px;
+}
+
+.my-skills-img-php{
+  padding-top: 20px;
+  max-width: 40%;
+  height: auto;
+}
+
+.my-skills-img-js{
+  max-width: 40%;
+  height: auto;
+}
+
+.my-skills-img-mysql{
+  padding-top: 20px;
+  max-width: 40%;
+  height: auto;
+}
+
+/************************************/
+/**************** TOOLS *************/
+/************************************/
+
+.my-skills-img-github{
+  max-width: 30%;
+  height: auto;
+}
+
+.my-skills-img-git{
+  max-width: 30%;
+  height: auto;
+}
+
+.my-skills-img-sublimemerge{
+  max-width: 30%;
+  height: auto;
+}
+
+/************************************/
+/************** LIBRAIRIES **********/
+/************************************/
+
+.my-skills-img-jquery{
+  max-width: 30%;
+  height: auto;
+}
+
+.my-skills-img-bootstrap{
+  max-width: 30%;
+  height: auto;
+}
+
+.my-skills-img-sass{
+  padding-top: 10px;
+  max-width: 30%;
+  height: auto;
+}
+
+/************************************/
+/************** FRAMEWORKS **********/
+/************************************/
+.my-skills-bloc-frameworks{
+  /* background-color: firebrick; */
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-weight: bold;
+}
+
+.my-skills-title-frameworks{
+  /* background-color: gold; */
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.my-skills-img-symfony, .my-skills-img-wordpress{
+  max-width: 13%;
+  height: auto;
+}
+
+
+/************************************** END SKILLS ***************************************/
+
+/************************************** START PROJECTS ***************************************/
+.my-projects {
+  height: auto;
+  width: 100%;
+  background-color: #fffafa;
+  padding: 50px 0 100px 0;
+}
+
+.my-projects-row{
+  padding: 0;
+  margin: 0;
+}
+
+.my-projects-button{
+  color: #1a222c;
+  border: 1px solid #1a222c;
+}
+
+.my-projects-button:hover{
+  color: whitesmoke;
+  background-color: #1a222c;
+}
+
+.my-projects-2{
+  padding: 150px 0;
+}
+
+/* .my-projects-div-text-presentation-1{
+  background-color: darkmagenta;
+} */
+
+/* .my-projects-div-text-presentation-2{
+  background-color: indigo;
+} */
+
+.my-projects-text-presentation-1, .my-projects-text-presentation-3{
+  height: 150px;
+  /* background-color: bisque; */
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.my-projects-text-presentation-2{
+  height: 150px;
+  /* background-color: blue; */
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.my-projects-title-project{
+  text-align: center;
+}
+
+.my-projects-div-img-presentation-1, .my-projects-div-img-presentation-3{
+  padding: 0;
+  height: 250px;
+  /* background-color: rosybrown; */
+}
+
+.my-projects-div-img-presentation-2{
+  padding: 0;
+  height: 250px;
+  /* background-color: pink; */
+}
+
+.my-projects-img-1{
+  height: auto;
+  width: 100%;
+  min-width: 350px;
+  border: 1px solid #1a222c;
+  border-radius: 4px;
+  /* padding-top: 25px; */
+}
+
+.my-projects-img-2{
+  height: auto;
+  width: 100%;
+  min-width: 350px;
+  border: 1px solid #1a222c;
+  border-radius: 4px;
+  /* padding-top: 15px; */
+}
+
+.my-projects-img-3{
+  height: auto;
+  width: 90%;
+  min-width: 350px;
+  border: 1px solid #1a222c;
+  border-radius: 4px;
+  /* padding-top: 25px; */
+}
+/************************************** END PROJECTS *****************************************/
+
+/************************************** START CONTACT ****************************************/
+.contact {
+  height: auto;
+  width: 100%;
+  background-color: #fffafa;
+  padding: 50px 0;
+}
+
+.contact-title{
+  text-align: center;
+}
+
+.contact-linkedin-logo, .contact-github-logo, .contact-mail-logo{
+  color: #1a222c;
+}
+
+.contact-linkedin-logo:hover, .contact-github-logo:hover, .contact-mail-logo:hover{
+  color: darkgray;
+}
+
+.contact-upwork-logo{
+  width: 55%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.contact-modal-close-button:hover, .contact-modal-mail-button{
+  background-color: #1a222c;
+  color: #fffafa;
+}
+
+.contact-modal-close-button,.contact-modal-mail-button:hover {
+  background-color: darkgray;
+  color: #1a222c;
+}
+
+.contact-arrow-up{
+  height: 100%;
+  padding-top: 6%;
+  padding-left: 85%;
+}
+
+.contact-arrow-up-border-arrow{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding-top: 4px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 1.5px solid #1a222c;
+  color: #1a222c;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-arrow-up-border-arrow:hover{
+  color: darkgray;
+  border: 1.5px solid darkgray;
+}
+
+.downloadMyCV{
+  text-align: end;
+  padding-top: 50px;
+}
+
+.downloadMyCV a{
+  background-color: #1a222c;
+  color: whitesmoke;
+  margin-right: 50px;
+}
+
+.downloadMyCV a:hover{
+  background-color:whitesmoke;
+  color: #1a222c;
+  border-color: #1a222c;
+}
+
+/************************************** END CONTACT ******************************************/
+
+/************************************** START FOOTER *****************************************/
+footer {
+  height: auto;
+  width: 100%;
+  background-color: #1a222c;
+  color: #fffafa;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+footer h5{
+  font-size: medium;
+}
+
+footer p{
+  font-size: small;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+footer a{
+  color: darkgray;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #fffafa;
+}
+
+.legalNotice{
+  /* background-color: #1a222c; */
+  color: whitesmoke;
+}
+
+.legalNotice a{
+  color: darkgray;
+}
+/************************************** END FOOTER *******************************************/
+
+
+
+/* ******************************************************************************
+********************************* MEDIA QUERIES ******************************** 
+*******************************************************************************/
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  /************************************** START NAVBAR *****************************************/
+  nav {
+    display: none !important;
+  }
+
+  .nav-link {
+    padding-top: 15px;
+    width: 350px;
+    text-align: end;
+    justify-content: end;
+  }
+  /************************************** END NAVBAR *******************************************/
+
+  /************************************** START ANIMATION **************************************/
+  #animation-myName {
+    padding: 350px 50px 0 90px;
+  }
+  .particles-js-canvas-el{
+    max-width: 450px;
+  }
+
+  /************************************** END ANIMATION ****************************************/
+
+  /************************************** START ABOUT ME ***************************************/
+  .about-me {
+    height: auto;
+    width: 450px;
+  }
+
+  .about-me div div hr, .hr-title{
+    width: 20%;
+  }
+  /************************************** END ABOUT ME *****************************************/
+
+  /************************************** START SKILLS *************************************/
+  .my-skills {
+    margin-top: -2px;
+    height: auto;
+    width: 450px;
+  }
+  /************************************/
+  /*************** FRONT **************/
+  /************************************/
+
+  /************************************/
+  /************ LIBRAIRIES ************/
+  /************************************/
+
+  .my-skills-title-front,.my-skills-title-back, .my-skills-title-tools, .my-skills-title-librairies, .my-skills-title-frameworks{
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+
+  .my-skills-img-html, .my-skills-img-symfony, .my-skills-img-wordpress{
+    max-width: 50%;
+  }
+
+  .my-skills-img-css{
+    max-width: 36%;
+  }
+  /************************************/
+  /*************** BACK ***************/
+  /************************************/
+  .my-skills-div-back{
+    padding-top: 48px;
+  }
+
+  .div-none{
+    display: none;
+  }
+
+  .my-skills-div-mysql{
+    padding: 0 12px;
+  }
+
+  .my-skills-img-php, .my-skills-img-mysql {
+    max-width: 95%;
+  }
+
+  .my-skills-img-js{
+    max-width: 90%;
+  }
+
+  /************************************/
+  /*************** TOOLS **************/
+  /************************************/
+
+  /************************************/
+  /************ LIBRAIRIES ************/
+  /************************************/
+
+  .my-skills-img-github, .my-skills-img-git, .my-skills-img-sublimemerge, .my-skills-img-jquery, .my-skills-img-bootstrap, .my-skills-img-sass{
+    max-width: 60%;
+  }
+
+  /************************************** END SKILLS ***************************************/
+
+  /************************************** START PROJECTS ***************************************/
+
+  .my-projects{
+    margin-top: -2px;
+    height: auto;
+    width: 450px;
+  }
+
+  .my-projects-title{
+    padding-bottom: 0;
+  }
+
+  .my-projects-title-project{
+    font-weight: bolder;
+  }
+
+  .my-projects-1, .my-projects-2, .my-projects-3{
+    padding: 100px 0 0 0;
+    margin: 0;
+  }
+
+  .my-projects-title-project{
+    padding-bottom: 10px;
+  }
+
+  .my-projects-div-button{
+    justify-content: center;
+    text-align: center;
+  }
+  /************************************** END PROJECTS *****************************************/
+
+  /************************************** START CONTACT ****************************************/
+  .contact{
+    height: auto;
+    width: 450px;
+    margin: -2px 0 0 0;
+    padding-bottom: 20px;
+  }
+
+  .contact-upwork-logo{
+    width: 85%;
+  }
+
+  .downloadMyCV{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .downloadMyCV a{
+    margin: 0;
+  }
+
+  .contact-arrow-up{
+    padding-top: 0;
+  }
+
+  /************************************** END CONTACT ******************************************/
+
+  /************************************** START FOOTER *****************************************/
+  footer{
+    height: auto;
+    width: 450px;
+  }
+  /************************************** END FOOTER *******************************************/
+}
